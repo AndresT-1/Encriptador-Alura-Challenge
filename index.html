@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./assets/Logo.png" alt="Logo de Alura" class="logo_Alura">
+        </nav>
+    </header>
+    <section class="seccion_principal">
+        <div class="contenedor_ingresar">
+            <textarea id="texto_a_encriptar" placeholder="Ingrese texto aquí" ></textarea>
+            <img src="./assets/Frame 1.png" alt="Imagen de solo letras minusculas y sin acentos">
+            <div class="contenedor_botones">
+                <button class="btn_encriptar">Encriptar</button>
+                <button class="btn_desencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <div class="seccion_encriptado">
+            <img src="./assets/Muñeco.png" alt="Imagen descriptiva">
+            <div class="contenedor_texto">
+                <p class="texto_negrita">Ningún mensaje fue encontrado</p>
+                <p class="texto">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="encriptado">
+                <div class="texto-encriptado-desencriptado">
+                    <textarea id="texto_desencriptado_encriptado"></textarea>
+                </div>
+                <div class="boton-copiar">
+                    <button class="btn_copiar">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="./encriptador.js"></script>
+</body>
+</html>
