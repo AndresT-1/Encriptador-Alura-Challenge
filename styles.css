@@ -87,6 +87,7 @@ header{
                 font-family: var(--font-family);
                 background-color: var(--color-encriptar);
                 color:var(--color-azul);
+                border: 0.063rem solid var(--color-azul);
                 border-radius: 1.5rem;
                 padding: 1.5rem;
             }
@@ -236,63 +237,6 @@ header{
 
 }
 
-/*header{
-        width:100% !important;
-    }
-    header nav{
-        padding-left: 0%;
-    }
-    .seccion_principal{
-        width: 100%;
-    }
-    .contenedor_ingresar{
-        width: 90%;
-        height: auto;
-        margin: 0 5% !important;
-        padding: 0 !important;
-        
-    }
-    .contenedor_botones{
-        width: 100% !important;
-    }
-    .contenedor_ingresar textarea{
-        width: 100% !important;
-    }
-    
-    textarea::placeholder {
-        width: 100% !important;
-    }
-    .contenedor_ingresar img{
-        width: 100% !important;
-        
-    }
-    .contenedor_ingresar .contenedor_botones{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .contenedor_ingresar .contenedor_botones .btn_encriptar{
-        width: 100% !important;
-        margin-bottom: 1.5rem;
-       
-    }
-    .contenedor_ingresar .contenedor_botones .btn_desencriptar{
-        width: 100% !important;
-    }
-    .seccion_encriptado{
-
-        width: 90% !important;
-        margin: 0 5% !important;
-        padding: 0 !important;
-    }
-    .seccion_encriptado img{
-        display: none;
-    }
-    .encriptado .boton-copiar{
-        width: 100%;
-    }
-    .encriptado .boton-copiar .btn_copiar{
-        width: 100% !important;
-    }*/
 
     @media (min-width:376px) and (max-width: 768px) {
         body{
